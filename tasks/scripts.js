@@ -33,7 +33,7 @@ gulp.task('scripts', () => {
   })
   .pipe(gulp.dest('server/public/js'))
   .pipe(rename({
-    basename: 'cp',
+    basename: 'index',
     extname: '.min.js'
   }))
   .pipe(uglify({
