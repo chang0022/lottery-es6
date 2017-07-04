@@ -1,0 +1,479 @@
+.lottery {
+    width: 980px;
+    background: #fff;
+}
+
+.lottery-hd {
+    padding-top: 10px;
+}
+
+.lottery-hd .hd {
+    position: relative;
+    height: 36px;
+    padding-top: 8px;
+}
+
+.lottery-hd .hd .cp-logo {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 14px;
+    top: 0;
+}
+
+.lottery-hd .hd .cp-logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cp-logo-img {
+    background: url(https://p4.ssl.qhimg.com/t01ecb8c93e6cd5e311.png) no-repeat 0 0;
+}
+
+.lottery-hd .hd .cp-name {
+    font-size: 20px;
+    margin-left: 92px;
+    float: left;
+    font-family: 'Microsoft Yahei';
+}
+
+.lottery-hd .hd .cp-name em {
+    color: #c70000;
+}
+
+.lottery-hd .hd .cp-params {
+    float: left;
+    padding: 4px 0 0 23px;
+    font-size: 14px;
+}
+
+.lottery-hd .hd .cp-params li {
+    float: left;
+    margin-right: 15px;
+    line-height: 24px;
+}
+
+.lottery-hd .hd .cp-params li b {
+    color: #c70000;
+}
+
+.lottery-hd .hd .label {
+    float: right;
+}
+
+.lottery-hd .bd .cp-nav {
+    background: #ed5314 url(https://p0.ssl.qhimg.com/t01604d5862dd0f23b9.png) repeat-x 0 -64px;
+}
+
+.lottery-hd .bd .cp-nav .main {
+    float: left;
+    padding-left: 92px;
+    border-right: 1px solid #ff7c05;
+}
+
+.lottery-hd .bd .cp-nav .main li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-left: 1px #ff7c05 solid;
+    border-right: 1px #e40c0a solid;
+}
+
+.lottery-hd .bd .cp-nav .main .active {
+    background: #ec1200 url(https://p2.ssl.qhimg.com/t01edf7d8164b7bdd24.png) no-repeat center bottom;
+    border-left-color: #d81200;
+    border-right-color: #e40c0a;
+    font-weight: bold;
+}
+
+.lottery-hd .bd .cp-nav .main li a {
+    padding: 0 10px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.lottery-hd .bd .cp-nav .helper-nav {
+    float: left;
+    padding-left: 15px;
+}
+
+.lottery-hd .bd .cp-nav .helper-nav a {
+    display: inline-block;
+    color: #fff;
+    height: 28px;
+    padding-top: 2px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'simsun';
+}
+
+.lottery-hd .bd .cp-nav .helper-nav .ico-arrow02 {
+    margin-left: 5px;
+    vertical-align: -5px;
+}
+
+.lottery-hd .bd .cp-nav .quirk {
+    float: right;
+}
+
+.lottery-hd .bd .cp-nav .quirk li {
+    float: left;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.lottery-hd .bd .cp-nav .quirk li.divider {
+    padding: 0;
+    color: #f78e5c;
+}
+
+.lottery-hd .bd .cp-nav .quirk li a {
+    color: #fddfd0;
+}
+
+.lottery-nav {
+    border: 1px #d5d5d5 solid;
+    border-width: 0 1px 1px;
+}
+
+.lottery-nav .lottery-nav-items {
+    position: relative;
+    padding: 5px 11px;
+    background: #dedede url(https://p5.ssl.qhimg.com/t01fedc349dd63d1be1.png) repeat-x 0 0;
+}
+
+.lottery-nav .lottery-nav-items li {
+    float: left;
+    margin-left: -1px;
+    position: relative;
+    height: 24px;
+    padding: 0 9px;
+    line-height: 24px;
+    border: 1px #999 solid;
+    background: url(https://p2.ssl.qhimg.com/t010020268de73e4126.png) repeat-x;
+}
+
+.lottery-nav .lottery-nav-items li a {
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.lottery-nav .lottery-nav-items .active {
+    border-color: #ba2f18;
+    font-weight: bold;
+    color: #fff;
+    background: #ee6227;
+    box-shadow: inset 1px 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.lottery-nav .lottery-nav-items .active a {
+    color: #fff;
+}
+
+.lottery-bd {
+    background: url(https://p4.ssl.qhimg.com/t013c49b3e58d516a78.png) repeat-y 100% 0;
+}
+
+.lottery-bd .article {
+    float: left;
+    width: 728px;
+}
+
+.lottery-bd .article .plays .mod-select-info {
+    padding: 10px 0 0 40px;
+    color: #999;
+}
+
+.lottery-bd .article .plays .plays-memo .ico {
+    margin-right: 6px;
+}
+
+.lottery-bd .article .plays .plays-memo b,
+.lottery-bd .article .plays .plays-memo span {
+    color: #333;
+}
+
+.lottery-bd .article .plays .mod-select-bolls {
+    margin: 0 38px;
+}
+
+.lottery-bd .mod-select-bolls .hd {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.lottery-bd .mod-select-bolls .hd span {
+    display: inline-block;
+    font-weight: normal;
+    color: #777;
+    text-align: center;
+}
+
+.lottery-bd .mod-select-bolls .hd em {
+    font-size: 14px;
+    font-weight: bold;
+    color: #c00;
+}
+
+.lottery-bd .mod-select-bolls .hd .t1 {
+    width: 428px;
+}
+
+.lottery-bd .mod-select-bolls .hd .t2 {
+    width: 190px;
+}
+
+.lottery-bd .tools-boll-list {
+    position: relative;
+}
+
+.lottery-bd .tools-boll-list .boll-item {
+    overflow: hidden
+}
+
+.lottery-bd .tools-boll-list .k,
+.lottery-bd .tools-boll-list .v,
+.lottery-bd .tools-boll-list .t {
+    float: left;
+}
+
+.lottery-bd .tools-boll-list .k {
+    width: 40px;
+}
+
+.lottery-bd .tools-boll-list .k span {
+    display: block;
+    position: relative;
+}
+
+.lottery-bd .tools-boll-list .k .k1 {
+    width: 33px;
+    height: 19px;
+    line-height: 17px;
+    margin: 7px 0 8px 0;
+    text-align: center;
+    border-radius: 2px;
+    background: #e6e6e6;
+    color: #999;
+}
+
+.lottery-bd .tools-boll-list .k .k1 .caret {
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-color: #fff #fff #fff #e6e6e6;
+    border-width: 5px;
+    border-style: solid;
+    line-height: 0;
+}
+
+.lottery-bd .tools-boll-list .k .k2 {
+    color: #999;
+    padding-left: 4px;
+    font-family: simsun;
+}
+
+.lottery-bd .tools-boll-list .v {
+    position: relative;
+    width: 419px;
+}
+
+.lottery-bd .tools-boll-list .t {
+    width: 190px;
+}
+
+.lottery-bd .tools-boll-list .boll-list li {
+    float: left;
+    margin-right: 3px;
+    width: 34px;
+    height: 57px;
+    text-align: center;
+}
+
+.lottery-bd .tools-boll-list .boll-list li span {
+    color: #8a8a8a;
+}
+
+.lottery-bd .tools-boll-list .tool-list {
+    padding-top: 6px;
+    margin-right: -20px;
+    position: relative;
+}
+
+.lottery-bd .tools-boll-list .tool-list li {
+    float: left;
+    line-height: 21px;
+}
+
+.lottery-bd .tools-boll-list .tool-list li .btn {
+    float: left;
+    margin-right: 9px;
+    width: 22px;
+}
+
+.lottery-bd .mod-select-bolls .ft {
+    border-top: 1px #ededed solid;
+    padding: 9px 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lottery-bd .mod-select-bolls .ft b {
+    color: #cf1917;
+    font-family: Tahoma;
+}
+
+.lottery-bd .mod-select-result {
+    margin-left: 90px;
+    margin-top: 0;
+    position: relative;
+}
+
+.lottery-bd .mod-select-result .confirm_box {
+    margin-left: 200px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.lottery-bd .mod-select-result .bd {
+    border: 1px #e5e5e5 solid;
+    width: 550px;
+    background: #fbfbfb;
+}
+
+.lottery-bd .mod-select-result .bd .result {
+    float: left;
+    width: 448px;
+    height: 140px;
+    border-right: 1px #e5e5e5 solid;
+}
+
+.lottery-bd .mod-select-result .bd .result .content {
+    background: #fffdf7;
+    height: 113px;
+    overflow: auto;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.lottery-bd .mod-select-result .bd .qkmethod {
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+}
+
+.lottery-bd .mod-select-result .bd .qkmethod li {
+    margin-bottom: 8px;
+}
+
+.lottery-bd .mod-select-result .bd .qkmethod .btn-middle {
+    width: 78px;
+}
+
+.lottery-bd .mod-select-result .total {
+    padding-top: 10px;
+}
+
+.lottery-bd .mod-select-result .total input {
+    width: 45px;
+}
+
+.lottery-bd .mod-submit {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.lottery-bd .aside {
+    float: right;
+    width: 249px;
+}
+
+.lottery-bd .aside .mod-aside {
+    padding: 0 13px;
+    margin-bottom: 10px;
+}
+
+.lottery-bd .aside .mod-aside .hd {
+    border-bottom: 0;
+}
+
+.lottery-bd .aside .mod-aside .hd h3 {
+    float: none;
+    padding: 10px 0;
+    font-size: 13px;
+    text-align: center;
+    color: #555;
+}
+
+.lottery-bd .aside .mod-aside .hd .ball-num {
+    text-align: center;
+}
+
+.lottery-bd .aside .mod-aside .hd .ico-ball3 {
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background: url(https://p2.ssl.qhimg.com/t01df24192ace1dbec8.png) no-repeat 0 -199px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.lottery-bd .aside .mod-aside .hd .kj-date {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.lottery-bd .aside .mod-aside .bd {
+    margin-top: 10px;
+}
+
+.lottery-bd .aside .mod-aside .kpkjcode thead tr {
+    line-height: 24px;
+}
+
+.lottery-bd .aside .mod-aside .kpkjcode th {
+    padding: 0 2px;
+    background: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.lottery-bd .aside .mod-aside .kpkjcode span {
+    display: inline-block;
+    width: 36px;
+}
+
+.lottery-bd .aside .mod-aside .kpkjcode tbody tr {
+    line-height: 17px;
+}
+
+.lottery-bd .aside .mod-aside .kpkjcode td {
+    padding: 4px 0;
+    text-align: center;
+    color: #999;
+}
+
+.syycode {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.lottery-bd .aside .mod-aside .muted {
+    color: #aaa;
+}
+
+.lottery-bd .aside .mod-aside .ft {
+    padding: 0 0 10px 0;
+    margin-top: 6px;
+}

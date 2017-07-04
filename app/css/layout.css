@@ -1,0 +1,187 @@
+body {
+    font: 12px/1.5 Tahoma, Arial, "\5b8b\4f53", Helvetica, sans-serif;
+    color: #333;
+    background: #fff;
+    font-size: 12px;
+}
+
+.w {
+    margin: auto;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.label {
+    display: inline-block;
+    margin: 4px 12px 0 0;
+    width: 59px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.label-warn {
+    color: #fff;
+    background: #dc271f;
+}
+
+.label-disabled {
+    color: #fff;
+    background: #a4a4a4;
+}
+
+.ico {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+.ico-arrow02 {
+    width: 15px;
+    height: 16px;
+    background: url(https://p5.ssl.qhimg.com/t0192942babe40f23d5.png) no-repeat -33px -148px;
+}
+
+.ico-info-s {
+    width: 13px;
+    height: 11px;
+    background: url(https://p5.ssl.qhimg.com/t0192942babe40f23d5.png) no-repeat 0 -172px;
+}
+
+.red {
+    color: #d80000!important;
+}
+
+.gray666 {
+    color: #666!important;
+}
+
+.btn-boll {
+    display: block;
+    width: 32px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 2px;
+    font-family: 'Microsoft Yahei';
+    line-height: 32px;
+    text-align: center;
+    color: #555;
+    text-shadow: 1px 1px 1px #fff;
+    background: url(https://p2.ssl.qhimg.com/t01df24192ace1dbec8.png) no-repeat -88px 0;
+}
+
+.btn-boll-active {
+    color: #fff;
+    text-shadow: 1px 1px 1px #c00;
+    background-position: 0 0;
+}
+
+.btn-middle {
+    display: inline-block;
+    white-space: pre;
+    word-break: keep-all;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px #cecece solid;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: #f8f8f8 url(https://p5.ssl.qhimg.com/t01ead3fafdd00ec563.png) repeat-x 0 -53px;
+}
+
+.btn-large {
+    display: inline-block;
+    height: 34px;
+    padding: 0 12px;
+    line-height: 34px;
+    border-radius: 2px;
+    border: 1px #e9d9b2 solid;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: 'Microsoft Yahei';
+    color: #ca9035;
+    background: #fcf7e9 url(https://p5.ssl.qhimg.com/t01ead3fafdd00ec563.png) repeat-x 0 -87px;
+    cursor: pointer;
+}
+
+.btn-large2 {
+    display: inline-block;
+    height: 42px;
+    padding: 0 36px;
+    line-height: 42px;
+    border-radius: 3px;
+    border: 1px #940811 solid;
+    text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    font-family: 'Microsoft Yahei';
+    cursor: pointer;
+    background: #fcf7e9 url(https://p5.ssl.qhimg.com/t01ead3fafdd00ec563.png) repeat-x 0 0;
+}
+
+.btn-large2-primary {
+    color: #fff;
+    border-top-color: #c61825;
+}
+
+.lnk {
+    color: #3f79d0;
+}
+
+button.btn {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: 0;
+    cursor: pointer;
+    overflow: visible;
+    white-space: pre;
+    word-break: keep-all;
+}
+
+button.btn-sd {
+    border-radius: 3px;
+}
+
+.btn-slt-ok i {
+    font-style: normal;
+}
+
+.btn-slt-ok i.l {
+    padding-left: 25px;
+    background: url(https://p5.ssl.qhimg.com/t0192942babe40f23d5.png) no-repeat 0 -119px;
+}
+
+.btn-slt-ok i.r {
+    padding-right: 25px;
+    color: #c63;
+    background: url(https://p5.ssl.qhimg.com/t0192942babe40f23d5.png) no-repeat 83px -119px;
+}
+
+input,
+select,
+button {
+    vertical-align: middle;
+}
+
+input.text,
+textarea.textarea {
+    padding: 2px 3px;
+    border: 1px #bbb solid;
+}
+
+.text-right {
+    text-align: right;
+}
